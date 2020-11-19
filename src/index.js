@@ -1,4 +1,3 @@
-import "./styles.css";
 
 const app = document.querySelector("#app");
 
@@ -27,7 +26,7 @@ const generateFilterButtonTemplate = ({ id, filterName, text }) => {
   return `
     <div class='grid__item'>
       <button
-        class='button'
+        class='button--round'
         data-id='${id}'
         data-filter='${filterName}'
       >
