@@ -36,6 +36,7 @@
 .input {
   padding: 10px 20px;
   border: 1px solid #ddd;
+  border-radius: 15px 0 0 15px;
   width: 100%;
 }
 
@@ -46,6 +47,18 @@
   display: block;
   padding: 10px 15px;
   border: 1px solid #1a73e8;
+  border-radius: 0 15px 15px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button--round {
+  color: #fff;
+  background: #1a73e8;
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid #1a73e8;
+  border-radius: 15px;
   width: 100%;
   cursor: pointer;
 }
@@ -205,4 +218,9 @@
 
 .button--remove i::before {
   transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.default-message-container {
+  text-align: center;
+  padding: 10px 0;
 }
